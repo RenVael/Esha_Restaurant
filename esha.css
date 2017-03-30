@@ -5,6 +5,7 @@ body {
   background: #232323;
 }
 
+
 div {
   height: 200px;
   background-size: cover;
@@ -12,6 +13,7 @@ div {
   margin: 40px 0 0 0;
   border-radius: 12px;
 }
+
 
 h1 {
   font-family: 'Londrina Shadow', cursive;
@@ -21,11 +23,13 @@ h1 {
   margin: 60px 0 0 0;
 }
 
+
 h2 {
   text-align: center;
   color: #bbbbbb;
   margin: 0px 0 70px 0;
 }
+
 
 p {
   color: rgba(255,255,255,1);
@@ -45,33 +49,41 @@ p {
   -moz-transition: height .5s;
 }
 
+
 small {
   opacity: 0;
 }
+
 
 .show-description p {
   height: 150px;
 }
 
+
 .show-description small {
   opacity: 1;
 }
+
 
 .first {
   background-image: url("http://dash.ga.co/assets/firstcourse.jpg");
 }
 
+
 .second {
   background-image: url("http://dash.ga.co/assets/secondcourse.jpg");
 }
+
 
 .dessert {
   background-image: url("http://dash.ga.co/assets/dessertcourse.jpg");
 }
 
+
 .price {
   float: right;
 }
+
 
 @media (max-width: 500px) {
   h1 {
@@ -94,3 +106,4 @@ small {
     font-size: 16px;
   }
 }
+
